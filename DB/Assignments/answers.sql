@@ -1,7 +1,7 @@
 -- Write an SQL query to create a new database called salesDB.
 CREATE DATABASE salesDB;
 USE salesDB;
--- salesDB contains informaton about customers,products and sales personell
+-- salesDB contains information about customers,products and sales personnel
 -- creating the customer table
 CREATE TABLE customer_data (
 	customer_id VARCHAR(50) PRIMARY KEY NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE product_data (
     product_price INT
 );
 
--- creating the sales personell table
+-- creating the sales personnel table
 CREATE TABLE sales_person_data (
 	sales_person_id VARCHAR(50) PRIMARY KEY NOT NULL,
     customer_id VARCHAR(50),
